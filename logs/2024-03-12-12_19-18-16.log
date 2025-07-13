@@ -1,0 +1,4 @@
+2024-03-12 19:18:16 [main] INFO  BaseTest:54 - Browser name is:firefox
+2024-03-12 19:18:19 [main] INFO  LoginPageTests:25 - Username is: standard_userPassword is: secret_sauce
+2024-03-12 19:18:20 [main] INFO  BaseTest:54 - Browser name is:chrome
+2024-03-12 19:18:27 [main] INFO  ProductsPageTests:22 - Username is: performance_glitch_userPassword is: secret_sauce

@@ -16,11 +16,11 @@ public class LoginPageTests extends BaseTest
 
 
     @Test
-    public void userLoginTest()
-    {
+    public void userLoginTest() throws InterruptedException {
         String username = "standard_user";
         String password = "secret_sauce";
         loginPageObject = new LoginPageObject(driver);
+        Thread.sleep(10000);
         productsPageObject = loginPageObject.userLogin(username, password);
         logger.info("Username is: "+username+"Password is: "+password);
         System.out.println(productsPageObject.getTitleOfPage());

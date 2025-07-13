@@ -1,0 +1,3 @@
+2025-07-07 18:47:17 [main] INFO  BaseTest:55 - Browser name is:firefox
+2025-07-07 18:47:23 [main] INFO  BaseTest:55 - Browser name is:chrome
+2025-07-07 18:47:32 [main] INFO  ProductsPageTests:22 - Username is: performance_glitch_userPassword is: secret_sauce
