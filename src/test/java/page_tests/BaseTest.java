@@ -71,7 +71,7 @@ public class BaseTest
                    driver = new RemoteWebDriver(new URL("http://localhost:4444"), co);
 
                     // grid firefox & mention your system IP address instead of localhost
-                   // driver = new RemoteWebDriver(new URL("http://192.168.29.170:4444/wd/hub"), co);
+                   // driver = new RemoteWebDriver(new URL("http://192.168.29.2:4444/wd/hub"), co);
 
                     //remote webdriver url for Selenium standalone browser
                    // driver = new RemoteWebDriver(new URL("http://localhost:4441"), co);
@@ -112,7 +112,7 @@ public class BaseTest
                     driver = new RemoteWebDriver(new URL("http://localhost:4444"), fo);
 
                     // grid firefox & mention your system IP address instead of localhost
-                    //driver = new RemoteWebDriver(new URL("http://192.168.29.170:4444/wd/hub"), co);
+                    //driver = new RemoteWebDriver(new URL("http://192.168.29.2:4444/wd/hub"), co);
 
                     //remote webdriver url for Selenium standalone browser
                     //driver = new RemoteWebDriver(new URL("http://localhost:4442"), fo);
